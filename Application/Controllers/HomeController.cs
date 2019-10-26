@@ -5,39 +5,23 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Application.Models;
+using ORM.Interfaces;
 
 namespace Application.Controllers
 {
     public class HomeController : Controller
     {
+        private readonly ITodoRepository _todoRepository;
+
+        public HomeController(ITodoRepository todoRepository)
+        {
+            _todoRepository = todoRepository;
+        }
+
         public IActionResult Index()
         {
+            var resultado = _todoRepository.GetAll();
             return View();
-        }
-
-        public IActionResult About()
-        {
-            ViewData["Message"] = "Your application description page.";
-
-            return View();
-        }
-
-        public IActionResult Contact()
-        {
-            ViewData["Message"] = "Your contact page.";
-
-            return View();
-        }
-
-        public IActionResult Privacy()
-        {
-            return View();
-        }
-
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
     }
 }

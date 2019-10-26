@@ -1,0 +1,16 @@
+C:\Users\vinic\OneDrive\Documentos\GitHub\aula_dotnet\ORM\bin\Debug\netcoreapp2.1\Entities.dll
+C:\Users\vinic\OneDrive\Documentos\GitHub\aula_dotnet\ORM\bin\Debug\netcoreapp2.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\vinic\OneDrive\Documentos\GitHub\aula_dotnet\ORM\bin\Debug\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\vinic\OneDrive\Documentos\GitHub\aula_dotnet\ORM\bin\Debug\netcoreapp2.1\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\vinic\OneDrive\Documentos\GitHub\aula_dotnet\ORM\bin\Debug\netcoreapp2.1\System.Data.SqlClient.xml
+C:\Users\vinic\OneDrive\Documentos\GitHub\aula_dotnet\ORM\obj\Debug\netcoreapp2.1\ORM.csprojAssemblyReference.cache
+C:\Users\vinic\OneDrive\Documentos\GitHub\aula_dotnet\ORM\obj\Debug\netcoreapp2.1\ORM.csproj.CoreCompileInputs.cache
+C:\Users\vinic\OneDrive\Documentos\GitHub\aula_dotnet\ORM\obj\Debug\netcoreapp2.1\ORM.AssemblyInfoInputs.cache
+C:\Users\vinic\OneDrive\Documentos\GitHub\aula_dotnet\ORM\obj\Debug\netcoreapp2.1\ORM.AssemblyInfo.cs
+C:\Users\vinic\OneDrive\Documentos\GitHub\aula_dotnet\ORM\bin\Debug\netcoreapp2.1\ORM.deps.json
+C:\Users\vinic\OneDrive\Documentos\GitHub\aula_dotnet\ORM\bin\Debug\netcoreapp2.1\ORM.dll
+C:\Users\vinic\OneDrive\Documentos\GitHub\aula_dotnet\ORM\bin\Debug\netcoreapp2.1\ORM.pdb
+C:\Users\vinic\OneDrive\Documentos\GitHub\aula_dotnet\ORM\bin\Debug\netcoreapp2.1\Entities.pdb
+C:\Users\vinic\OneDrive\Documentos\GitHub\aula_dotnet\ORM\obj\Debug\netcoreapp2.1\ORM.csproj.CopyComplete
+C:\Users\vinic\OneDrive\Documentos\GitHub\aula_dotnet\ORM\obj\Debug\netcoreapp2.1\ORM.dll
+C:\Users\vinic\OneDrive\Documentos\GitHub\aula_dotnet\ORM\obj\Debug\netcoreapp2.1\ORM.pdb
