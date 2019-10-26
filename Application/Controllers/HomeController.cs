@@ -21,6 +21,17 @@ namespace Application.Controllers
         public IActionResult Index()
         {
             var resultado = _todoRepository.GetAll();
+            return View(_todoRepository.GetAll());
+        }
+
+        public IActionResult Cadastrar()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Cadastrar(Entities.ToDo obj)
+        {
             return View();
         }
     }
