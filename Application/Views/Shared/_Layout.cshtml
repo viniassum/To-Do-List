@@ -11,6 +11,7 @@
 </head>
 <body>
     <div class="container mt-5 body-content">
+        @Application.Models.Notification.Get(TempData)
         @RenderBody()
     </div>
 

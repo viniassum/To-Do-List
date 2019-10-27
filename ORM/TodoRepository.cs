@@ -5,6 +5,7 @@ using Entities;
 using Microsoft.Extensions.Configuration;
 using System.Data.SqlClient;
 using Dapper;
+using System.Linq;
 
 namespace ORM
 {
@@ -13,12 +14,25 @@ namespace ORM
         public TodoRepository(IConfiguration config) : base(config) { }
         public void Add(ToDo obj)
         {
-            throw new NotImplementedException();
+            DynamicParameters pam = new DynamicParameters();
+            pam.Add("@Tarefa", obj.Tarefa);
+
+            string sql = "INSERT INTO Todo (Tarefa) Values (@Tarefa)";
+
+            using (var con = new SqlConnection(base.GetConnection()))
+            {
+                con.Execute(sql, pam);
+            }
         }
 
         public ToDo Get(int id)
         {
-            throw new NotImplementedException();
+            string sql = $"SELECT * FROM  Todo WHERE Id = {id}";
+            IEnumerable<ToDo> todos;
+            using (var con = new SqlConnection(base.GetConnection()))
+            {
+                return con.Query<ToDo>(sql).FirstOrDefault();
+            }
         }
 
         public IEnumerable<ToDo> GetAll()
@@ -35,12 +49,24 @@ namespace ORM
 
         public void Remove(ToDo obj)
         {
-            throw new NotImplementedException();
+            string sql = $"DELETE FROM Todo WHERE Id = {obj.Id}";
+            using(var con = new SqlConnection(base.GetConnection()))
+            {
+                con.Execute(sql);
+            }
         }
 
         public void Update(ToDo obj)
         {
-            throw new NotImplementedException();
+            string sql = $"UPDATE Todo SET Tarefa = @Tarefa WHERE Id = {obj.Id}";
+
+            DynamicParameters pam = new DynamicParameters();
+            pam.Add("@Tarefa", obj.Tarefa);
+
+            using(var con = new SqlConnection(base.GetConnection()))
+            {
+                con.Execute(sql, pam);
+            }
         }
     }
 }

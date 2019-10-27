@@ -10,6 +10,7 @@
             <thead>
                 <tr>
                     <th>Tarefa</th>
+                    <th></th>
                 </tr>
             </thead>
             <tbody>
@@ -17,6 +18,12 @@
                 {
                     <tr>
                         <td>@item.Tarefa</td>
+                        <td>
+                            <div class="float-right">
+                                @Html.ActionLink("Editar", "Editar", "Home", new { id = item.Id }, new { @class = "btn btn-warning btn-sm" })
+                                @Html.ActionLink("Remover", "Remover", "Home", new { id = item.Id }, new { @class = "btn btn-danger btn-sm" })
+                            </div>
+                        </td>
                     </tr>
                 }
             </tbody>  
