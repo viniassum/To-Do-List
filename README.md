@@ -1,4 +1,4 @@
-# aula_dotnet
+# To-do list Utilizando Dapper
 Projeto desenvolvido para prática do curso da Udemy sobre Dapper, CRUD e ASP.NET MVC.
 
 O que é: Uma Web Application para exibir uma To-Do list, completamente customizável.
