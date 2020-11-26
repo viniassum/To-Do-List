@@ -7,3 +7,11 @@ C:\Users\vinic\OneDrive\Documentos\GitHub\aula_dotnet\Entities\obj\Debug\netcore
 C:\Users\vinic\OneDrive\Documentos\GitHub\aula_dotnet\Entities\bin\Debug\netcoreapp2.1\Entities.pdb
 C:\Users\vinic\OneDrive\Documentos\GitHub\aula_dotnet\Entities\obj\Debug\netcoreapp2.1\Entities.dll
 C:\Users\vinic\OneDrive\Documentos\GitHub\aula_dotnet\Entities\obj\Debug\netcoreapp2.1\Entities.pdb
+C:\WorkSpace\To_do_list\Entities\bin\Debug\netcoreapp2.1\Entities.deps.json
+C:\WorkSpace\To_do_list\Entities\bin\Debug\netcoreapp2.1\Entities.dll
+C:\WorkSpace\To_do_list\Entities\bin\Debug\netcoreapp2.1\Entities.pdb
+C:\WorkSpace\To_do_list\Entities\obj\Debug\netcoreapp2.1\Entities.AssemblyInfoInputs.cache
+C:\WorkSpace\To_do_list\Entities\obj\Debug\netcoreapp2.1\Entities.AssemblyInfo.cs
+C:\WorkSpace\To_do_list\Entities\obj\Debug\netcoreapp2.1\Entities.csproj.CoreCompileInputs.cache
+C:\WorkSpace\To_do_list\Entities\obj\Debug\netcoreapp2.1\Entities.dll
+C:\WorkSpace\To_do_list\Entities\obj\Debug\netcoreapp2.1\Entities.pdb

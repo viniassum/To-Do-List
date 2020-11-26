@@ -14,3 +14,15 @@ C:\Users\vinic\OneDrive\Documentos\GitHub\aula_dotnet\ORM\bin\Debug\netcoreapp2.
 C:\Users\vinic\OneDrive\Documentos\GitHub\aula_dotnet\ORM\obj\Debug\netcoreapp2.1\ORM.csproj.CopyComplete
 C:\Users\vinic\OneDrive\Documentos\GitHub\aula_dotnet\ORM\obj\Debug\netcoreapp2.1\ORM.dll
 C:\Users\vinic\OneDrive\Documentos\GitHub\aula_dotnet\ORM\obj\Debug\netcoreapp2.1\ORM.pdb
+C:\WorkSpace\To_do_list\ORM\bin\Debug\netcoreapp2.1\ORM.deps.json
+C:\WorkSpace\To_do_list\ORM\bin\Debug\netcoreapp2.1\ORM.dll
+C:\WorkSpace\To_do_list\ORM\bin\Debug\netcoreapp2.1\ORM.pdb
+C:\WorkSpace\To_do_list\ORM\bin\Debug\netcoreapp2.1\Entities.dll
+C:\WorkSpace\To_do_list\ORM\bin\Debug\netcoreapp2.1\Entities.pdb
+C:\WorkSpace\To_do_list\ORM\obj\Debug\netcoreapp2.1\ORM.csprojAssemblyReference.cache
+C:\WorkSpace\To_do_list\ORM\obj\Debug\netcoreapp2.1\ORM.AssemblyInfoInputs.cache
+C:\WorkSpace\To_do_list\ORM\obj\Debug\netcoreapp2.1\ORM.AssemblyInfo.cs
+C:\WorkSpace\To_do_list\ORM\obj\Debug\netcoreapp2.1\ORM.csproj.CoreCompileInputs.cache
+C:\WorkSpace\To_do_list\ORM\obj\Debug\netcoreapp2.1\ORM.csproj.CopyComplete
+C:\WorkSpace\To_do_list\ORM\obj\Debug\netcoreapp2.1\ORM.dll
+C:\WorkSpace\To_do_list\ORM\obj\Debug\netcoreapp2.1\ORM.pdb
