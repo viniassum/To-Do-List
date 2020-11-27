@@ -37,6 +37,7 @@ namespace Application
 
             services.AddSingleton<IConfiguration>(Configuration);
             services.AddTransient<ITodoRepository, TodoRepository>();
+            services.AddTransient<IUsuarioRepository, UsuarioRepository>();
 
 
         }
@@ -60,7 +61,7 @@ namespace Application
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                    template: "{controller=Login}/{action=Index}/{id?}");
             });
         }
     }

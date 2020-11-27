@@ -62,6 +62,7 @@ C:\WorkSpace\To_do_list\Application\obj\Debug\netcoreapp2.1\Razor\Views\Home\Cad
 C:\WorkSpace\To_do_list\Application\obj\Debug\netcoreapp2.1\Razor\Views\Home\Editar.cshtml.g.cs
 C:\WorkSpace\To_do_list\Application\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\WorkSpace\To_do_list\Application\obj\Debug\netcoreapp2.1\Razor\Views\Home\Remover.cshtml.g.cs
+C:\WorkSpace\To_do_list\Application\obj\Debug\netcoreapp2.1\Razor\Views\Login\Index.cshtml.g.cs
 C:\WorkSpace\To_do_list\Application\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\WorkSpace\To_do_list\Application\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
 C:\WorkSpace\To_do_list\Application\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
@@ -75,3 +76,4 @@ C:\WorkSpace\To_do_list\Application\obj\Debug\netcoreapp2.1\Application.csproj.C
 C:\WorkSpace\To_do_list\Application\obj\Debug\netcoreapp2.1\Application.dll
 C:\WorkSpace\To_do_list\Application\obj\Debug\netcoreapp2.1\Application.pdb
 C:\WorkSpace\To_do_list\Application\obj\Debug\netcoreapp2.1\Application.genruntimeconfig.cache
+C:\WorkSpace\To_do_list\Application\obj\Debug\netcoreapp2.1\Razor\Views\Login\Cadastrar.cshtml.g.cs
