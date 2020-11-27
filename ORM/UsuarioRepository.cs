@@ -32,13 +32,20 @@ namespace ORM
             throw new NotImplementedException();
         }
 
-        public Usuario Get(string email, string senha)
+        public int GetLogin(string email, string senha)
         {
-            string sql = $"SELECT * FROM Usuario WHERE email = {email} AND senha = {senha}";
-            IEnumerable<Usuario> usuarios;
+            if (email == null)
+                email = "";
+
+            if (senha == null)
+                senha = "";
+
+            string sql = $"SELECT count(*) FROM Usuario WHERE email = '{email}' AND senha = '{senha}'";
+            
             using (var con = new SqlConnection(base.GetConnection()))
             {
-                return con.Query<Usuario>(sql).FirstOrDefault();
+                int resultado = Convert.ToInt32(con.ExecuteScalar(sql));
+                return resultado;
             }            
         }
 

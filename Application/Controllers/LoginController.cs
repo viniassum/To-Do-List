@@ -66,5 +66,26 @@ namespace Application.Controllers
                 return false;
             }
         }
+
+        [HttpPost]
+        public bool ValidarLogin(string email, string senha)
+        {
+            if (ModelState.IsValid)
+            {
+                string senhaCriptografada = string.Empty;
+
+                if (senha != null)
+                    senhaCriptografada  = GetHash(senha);
+
+               if (_usuarioRepository.GetLogin(email, senhaCriptografada) > 0)
+                   return true;
+               else
+                   return false;
+            }
+            else
+            {
+                return false;
+            }
+        }
     }
 }

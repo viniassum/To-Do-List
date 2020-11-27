@@ -7,6 +7,6 @@ namespace ORM.Interfaces
 {
     public interface IUsuarioRepository : IRepository<Usuario>
     {
-        //Usuario Get(string email, string senha);
+        int GetLogin(string email, string senha);
     }
 }
